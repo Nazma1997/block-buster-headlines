@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-
+import Header from './component/header/header';
+import {newsCategory} from '../src/news/index'
 
 
 class App extends Component {
@@ -8,8 +9,8 @@ class App extends Component {
       <div className='container'>
         <div className='row'>
           <div className='col-sm-6 offset-md-3'>
-            <h2>Block Buster Headlines</h2>
-
+           
+           <Header category={newsCategory.technology}></Header>
           </div>
 
         </div>

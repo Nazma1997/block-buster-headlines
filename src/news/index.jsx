@@ -1,4 +1,4 @@
-const newsCategory = {
+export const newsCategory = {
   technology: 'technology',
   science: 'science',
   business: 'business',
@@ -10,4 +10,3 @@ const newsCategory = {
 
 
 
-export default newsCategory;
